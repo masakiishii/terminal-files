@@ -189,3 +189,6 @@ export CLASSPATH=".:$JAVA_HOME/lib/mysql-connector-java-5.1.32-bin.jar"
 
 #cabal
 export PATH=$PATH:$HOME/.cabal/bin
+
+#latex
+export PATH=$PATH:/usr/local/texlive/2014/bin/x86_64-darwin/
