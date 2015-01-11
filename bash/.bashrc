@@ -192,3 +192,6 @@ export PATH=$PATH:$HOME/.cabal/bin
 
 #latex
 export PATH=$PATH:/usr/local/texlive/2014/bin/x86_64-darwin/
+
+#sdb (for csharp debugger)
+export PATH=$HOME/sdb/bin:$PATH
