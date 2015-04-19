@@ -2,9 +2,11 @@
 
 CURRENTDIR=`pwd`
 
-configFileList=("git/.gitconfig" "tmux/tmux.sh" "tmux/.tmux.conf" "zsh/.zshrc")
+configFileList=("git/.gitconfig" "tmux/.tmux.conf" "zsh/.zshrc")
 
 for file in ${configFileList[*]}
 do
     ln -sf ${CURRENTDIR}/$file ${HOME}/
 done
+
+ln -sf ${CURRENTDIR}/tmux/tmux.sh ${HOME}/Downloads/
