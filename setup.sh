@@ -2,7 +2,7 @@
 
 CURRENTDIR=`pwd`
 
-configFileList=("git/.gitconfig" "tmux/tmux.sh" "zsh/.zshrc")
+configFileList=("git/.gitconfig" "tmux/tmux.sh" "tmux/.tmux.conf" "zsh/.zshrc")
 
 for file in ${configFileList[*]}
 do
