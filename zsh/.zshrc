@@ -38,3 +38,6 @@ export PATH=$HOME/.emacs.d/plugins/sdb/bin:$PATH
 
 #msc compile command
 export PATH=$HOME/.emacs.d/plugins:$PATH
+
+#cask
+export PATH=$HOME/.cask/bin:$PATH
