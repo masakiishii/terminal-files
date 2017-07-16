@@ -43,3 +43,6 @@ export PATH=$HOME/.emacs.d/plugins:$PATH
 
 #cask
 export PATH=$HOME/.cask/bin:$PATH
+
+#stack
+export PATH=$HOME/.local/bin:$PATH
